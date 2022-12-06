@@ -1,6 +1,6 @@
 #Bike Rentals Project
 
-Project Repository Link:
+Project Repository Link: https://github.com/Salmaanbaig/DBMS.git
 
 Project Members GitHub Profiles:
 1)
