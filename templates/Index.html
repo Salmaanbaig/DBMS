@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Bike Rentails DBMS Project</title> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+    </head>
+
+
+    <body>
+
+        <div class="banner">
+            <div class = "logo">
+                <h1>Bike Rentails</h1>
+            </div>
+            <div class="Query-Form">
+                <form action="{{ url_for("index")}}" method="post">
+                    <label style="color:aliceblue">Bike ID: </label><br>
+                    <input type = "text" name = "bike_id" placeholder = "Bike ID" id = "bike_id" ><br>
+                    <label style="color:aliceblue">Shop: </label><br>
+                    <input type = "text" name = "shop" placeholder = "Shop" id = "shop" ><br>
+                    <label style="color:aliceblue">User_id: </label><br>
+                    <input type = "text" name = "user_id" placeholder = "User ID" id = "user_id" ><br>
+                    <label style="color:aliceblue">Brand: </label><br>
+                    <input type = "text" name = "brand" placeholder = "Brand" id = "brand" ><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+
+            <div class = tables>
+
+                <table>
+                    <tr>
+                        {% for header in headings %}
+                        <th> {{ header }}</th>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        {% for cell in data %}
+                        <td>{{ cell }}</td>
+                        {% endfor %}
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </body>
+
+</html>
