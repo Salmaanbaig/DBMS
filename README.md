@@ -6,7 +6,7 @@ Project Members GitHub Profiles:
 1) Masthan Rao Narra: https://github.com/Masthan-Rao
 2) Salmaan Baig: https://github.com/Salmaanbaig
 3) Sai Subhash Gummadi: https://github.com/saisubhashg
-4)
+4) Nomusai Badugu: https://github.com/Nomusai05
 
 Project Demo Video Link:
 
