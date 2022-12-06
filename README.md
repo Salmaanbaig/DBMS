@@ -3,8 +3,8 @@
 Project Repository Link: https://github.com/Salmaanbaig/DBMS.git
 
 Project Members GitHub Profiles:
-1)
-2)
+1) Masthan Rao Narra : https://github.com/Masthan-Rao
+2) 
 3)
 4)
 
