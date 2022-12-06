@@ -1,7 +1,6 @@
 #Bike Rentals Project
 
 Project Repository Link: https://github.com/Salmaanbaig/DBMS.git
-
 Project Members GitHub Profiles:
 1) Masthan Rao Narra: https://github.com/Masthan-Rao
 2) Salmaan Baig: https://github.com/Salmaanbaig
